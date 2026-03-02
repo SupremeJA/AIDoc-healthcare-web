@@ -1,3 +1,6 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@1,2,3,4,5,6,7&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 @import "tailwindcss";
 
 @theme {
@@ -5,4 +8,6 @@
     --color-secondary: #003013;
     --color-accent: #8cc63e;
     --color-black: #030303;
+    --font-body: "Inter", sans-serif;
+    --font-heading: "Satoshi", sans-serif;
 }

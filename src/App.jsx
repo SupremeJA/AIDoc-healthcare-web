@@ -1,5 +1,13 @@
+import Nav from "./components/Nav";
+import Hero from "./sections/Hero";
+
 function App() {
-  return <h1>JIGI</h1>;
+  return (
+    <>
+      <Nav />
+      <Hero />
+    </>
+  );
 }
 
 export default App;
