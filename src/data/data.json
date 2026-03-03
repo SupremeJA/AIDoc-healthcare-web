@@ -13,6 +13,12 @@
       "color": "purple"
     },
     {
+      "title": "Secure Health Data Management",
+      "text": "Manage your health data securely with our AI-powered platform, ensuring privacy and compliance",
+      "icon": "FolderIcon",
+      "color": "blue"
+    },
+    {
       "title": "AI Virtual Health Assistant",
       "text": "Chat with our intelligent AI chatbot for instant health advice, symptom checks and guidance anytime",
       "icon": "HeadsetIcon",

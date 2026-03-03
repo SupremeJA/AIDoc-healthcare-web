@@ -3,6 +3,7 @@ import {
   HospitalIcon,
   CheckCircleIcon,
   HeadsetIcon,
+  FolderIcon,
 } from "@phosphor-icons/react";
 import data from "../data/data.json";
 
@@ -11,11 +12,16 @@ const ICONS = {
   CheckCircleIcon,
   ArrowUpRightIcon,
   HeadsetIcon,
+  FolderIcon,
 };
 const colorClasses = {
   purple: {
     text: "text-purple-500",
     bg: "bg-purple-500/20",
+  },
+  blue: {
+    text: "text-blue-500",
+    bg: "bg-blue-500/20",
   },
   accent: {
     text: "text-accent",
