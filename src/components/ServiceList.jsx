@@ -14,6 +14,7 @@ const ICONS = {
   HeadsetIcon,
   FolderIcon,
 };
+
 const colorClasses = {
   purple: {
     text: "text-purple-500",
