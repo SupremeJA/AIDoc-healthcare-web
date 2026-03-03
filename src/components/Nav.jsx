@@ -17,7 +17,7 @@ function Nav() {
           <a
             href={a.path}
             key={i}
-            className="hover:text-accent transition ease-in delay-150"
+            className="text-sm hover:text-accent transition ease-in delay-150"
           >
             {a.name}
           </a>
@@ -25,7 +25,7 @@ function Nav() {
       </div>
       <div className="flex items-center gap-4">
         <BellIcon size={20} />
-        <p>Image here</p>
+        <p>image</p>
         <ListIcon size={20} className="block " />
       </div>
     </nav>

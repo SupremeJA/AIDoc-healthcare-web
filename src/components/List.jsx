@@ -67,7 +67,7 @@ function List({ cards }) {
             return (
               <div
                 key={index}
-                className={`flex flex-col gap-7 p-5 ${color.cardbg} text-black rounded-2xl`}
+                className={`flex flex-col gap-7 p-8 ${color.cardbg} text-black rounded-2xl`}
               >
                 {Icon && (
                   <div
