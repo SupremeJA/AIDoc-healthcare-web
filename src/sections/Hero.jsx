@@ -25,7 +25,7 @@ function Hero() {
         <Searchbar />
       </div>
 
-      <div className="flex justify-center flex-col md:flex-row w-50 gap-4">
+      <div className="flex justify-center flex-col md:flex-row md:w-50 gap-4">
         {data.heroimages.map((e, i) => (
           <img src={e} key={i} className="rounded-xl" />
         ))}
