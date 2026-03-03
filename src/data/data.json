@@ -10,13 +10,13 @@
       "title": "Smart Doctor & Hospital Finder",
       "text": "Easily find doctors and hospitals near you with AI-powered search and instant booking",
       "icon": "HospitalIcon",
-      "color": "purple"
+      "color": "purple-500"
     },
     {
       "title": "AI Virtual Health Assistant",
       "text": "Chat with our intelligent AI chatbot for instant health advice, symptom checks and guidance anytime",
       "icon": "HeadsetIcon",
-      "color": "wine"
+      "color": "red-950"
     }
   ]
 }
