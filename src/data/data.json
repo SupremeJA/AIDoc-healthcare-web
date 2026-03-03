@@ -1,4 +1,10 @@
 {
+  "heroimages": [
+    "https://i.pinimg.com/1200x/36/e2/75/36e275e0148c1ef01e77f07abed5705a.jpg",
+    "https://i.pinimg.com/736x/26/45/c5/2645c5de51ce043e2b8242b23f8b9fa1.jpg",
+    "https://i.pinimg.com/1200x/36/e2/75/36e275e0148c1ef01e77f07abed5705a.jpg"
+  ],
+
   "services": [
     {
       "title": "AI-Powered Symptom Checker",
@@ -23,6 +29,45 @@
       "text": "Chat with our intelligent AI chatbot for instant health advice, symptom checks and guidance anytime",
       "icon": "HeadsetIcon",
       "color": "red"
+    }
+  ],
+
+  "cards": [
+    {
+      "title": "Instant Symptom Analysis",
+      "text": "Our AI quickly evaluates symptoms, offering reliable insights for faster and accurate decision-making.",
+      "icon": "CheckCircleIcon",
+      "color": "accent"
+    },
+    {
+      "title": "Personalized Health Insights",
+      "text": "Get tailored health recommendations based on your unique health data for proactive and precise care.",
+      "icon": "UserFocusIcon",
+      "color": "blue"
+    },
+    {
+      "title": "Real-Time Health Monitoring",
+      "text": "Track your vital signs and health metrics with instant AI-powered monitoring, ensuring timely interventions.",
+      "icon": "ActivityIcon",
+      "color": "orange"
+    },
+    {
+      "title": "Predictive Health Alerts",
+      "text": "AI predicts potential health risks and alerts you in advance, helping prevent complications before they escalate.",
+      "icon": "WarningIcon",
+      "color": "red"
+    },
+    {
+      "title": "Efficient Virtual Consultations",
+      "text": "Efficient Virtual Consultations: Connect with AI healthcare experts instantly, saving time and reducing the need for in-person visits.",
+      "icon": "HeadsetIcon",
+      "color": "purple"
+    },
+    {
+      "title": "Data-Driven Decision Making",
+      "text": "Utilize AI-analyzed data for informed health decisions, leading to better outcomes and improved wellness.",
+      "icon": "ChartBarIcon",
+      "color": "green"
     }
   ]
 }

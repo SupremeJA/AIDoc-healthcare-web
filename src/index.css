@@ -21,3 +21,7 @@ h2 {
 p {
     @apply text-xs text-gray-600 font-body mt-1;
 }
+
+section {
+    @apply flex justify-center items-center flex-col gap-8 max-w-4xl mx-auto px-5 mt-20;
+}
