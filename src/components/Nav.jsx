@@ -1,4 +1,4 @@
-import { ListIcon } from "@phosphor-icons/react";
+import { BellIcon, ListIcon } from "@phosphor-icons/react";
 
 function Nav() {
   const navLinks = [
@@ -24,9 +24,9 @@ function Nav() {
         ))}
       </div>
       <div className="flex items-center gap-4">
-        <p>ñ</p>
+        <BellIcon size={20} />
         <p>Image here</p>
-        <ListIcon size={32} className="block md:hidden" />
+        <ListIcon size={20} className="block " />
       </div>
     </nav>
   );

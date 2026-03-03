@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "title": "AI-Powered Symptom Checker",
+      "text": "Our AI-driven tool quickly analysis symptoms and provides instant health assesments",
+      "icon": "CheckCircleIcon",
+      "color": "accent"
+    },
+    {
+      "title": "Smart Doctor & Hospital Finder",
+      "text": "Easily find doctors and hospitals near you with AI-powered search and instant booking",
+      "icon": "HospitalIcon",
+      "color": "purple"
+    },
+    {
+      "title": "AI Virtual Health Assistant",
+      "text": "Chat with our intelligent AI chatbot for instant health advice, symptom checks and guidance anytime",
+      "icon": "HeadsetIcon",
+      "color": "wine"
+    }
+  ]
+}
