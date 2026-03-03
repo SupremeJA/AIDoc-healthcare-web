@@ -7,7 +7,7 @@ function Searchbar() {
       />
       <button
         type="submit"
-        className="flex justify-center items-center bg-accent w-18 h-9 rounded-full text-sm text-primary"
+        className="flex justify-center items-center bg-accent w-18 h-full rounded-full text-sm text-primary"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
