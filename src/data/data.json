@@ -69,5 +69,32 @@
       "icon": "ChartBarIcon",
       "color": "green"
     }
+  ],
+
+  "features": [
+    {
+      "title": "AI-Enhanced Health Analytics",
+      "text": "Leverage AI for accurate health insights and smarter diagnostics. Monitor vital signs and track health data effortlessly.",
+      "points": [
+        "Symptom Analysis",
+        "Health Data Monitoring",
+        "Chronic Condition Management"
+      ]
+    },
+    {
+      "title": "Smart AI Health Chatbot",
+      "text": "Get instant, reliable answers to health questions anytime. Our AI chatbot offers quick symptom checks, guidance, and wellness tips.",
+      "stats": {
+        "responseTime": "0.12 sec",
+        "usersWorldwide": "50M+"
+      }
+    },
+    {
+      "title": "Predictive Health Monitoring",
+      "text": "Detect potential health risks before they escalate with AI-powered monitoring. Our technology analyzes data for early intervention. Stay ahead, stay healthy.",
+      "stats": {
+        "detectionAccuracy": "99.2%"
+      }
+    }
   ]
 }
