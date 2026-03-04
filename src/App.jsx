@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Cards from "./sections/Cards";
+import Features from "./sections/Features";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Services />
       <Cards />
+      <Features />
     </>
   );
 }

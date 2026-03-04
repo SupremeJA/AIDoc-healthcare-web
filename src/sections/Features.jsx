@@ -1,7 +1,11 @@
-import React from "react";
+import FeatureList from "../components/FeatureList";
 
 function Features() {
-  return <div></div>;
+  return (
+    <section className="gap-12! md:gap-30!">
+      <FeatureList />
+    </section>
+  );
 }
 
 export default Features;
