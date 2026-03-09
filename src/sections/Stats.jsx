@@ -1,9 +1,8 @@
-import StatsList from "../components/StatsList";
-import data from "../data/data.json";
+import React from "react";
 
 function Stats() {
   return (
-    <section className="px-0! bg-pink-500">
+    <section className="block!  bg-accent  max-w-full! px-0! py-10">
       <StatsList />
     </section>
   );

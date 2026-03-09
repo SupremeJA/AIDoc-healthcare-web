@@ -13,10 +13,7 @@ function App() {
       <Services />
       <Cards />
       <Features />
-
-      <section className=" bg-red-500 mx-none! w-full! max-w-full! px-0!">
-        <Stats />
-      </section>
+      <Stats />
     </>
   );
 }
