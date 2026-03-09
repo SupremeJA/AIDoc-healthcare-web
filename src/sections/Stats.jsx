@@ -1,4 +1,4 @@
-import React from "react";
+import StatsList from "../components/StatsList";
 
 function Stats() {
   return (
