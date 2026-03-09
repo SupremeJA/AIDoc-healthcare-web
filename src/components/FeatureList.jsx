@@ -7,7 +7,7 @@ function FeatureList() {
       {data.features.map((e, i) => (
         <div
           key={i}
-          className={`flex flex-col-reverse ${i % 2 !== 0 ? "md:flex-row-reverse" : ""} justify-between md:items-center gap-10 md:gap-0`}
+          className={`flex flex-col-reverse ${i % 2 !== 0 ? "md:flex-row-reverse" : "md:flex-row"} justify-between md:items-center gap-10 md:gap-0`}
         >
           <div className="flex flex-col items-start gap-6 md:w-[50%]">
             <div>
@@ -23,7 +23,16 @@ function FeatureList() {
                   ))}
                 </ul>
               ) : (
-                "sks"
+                <div className="flex mt-4 gap-8">
+                  {Object.entries(e.stats).map(([key, value]) => (
+                    <span>
+                      <h2 key={key} className="text-xl! ">
+                        {value}
+                      </h2>
+                      <p>{key}</p>
+                    </span>
+                  ))}
+                </div>
               )}
             </div>
 

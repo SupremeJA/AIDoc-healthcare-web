@@ -14,19 +14,19 @@
     --font-chillax: "Chillax", sans-serif;
 }
 
-h2 {
-    @apply text-black text-2xl font-heading font-semibold;
-}
-
-p {
-    @apply text-xs text-gray-600 font-body mt-1;
-}
-
-section {
-    @apply flex justify-center items-center flex-col gap-8 max-w-4xl mx-auto px-5 mt-20;
-}
-
 @layer utilities {
+    h2 {
+        @apply text-black text-2xl font-heading font-semibold;
+    }
+
+    p {
+        @apply text-xs text-gray-600 font-body mt-1;
+    }
+
+    section {
+        @apply flex justify-center items-center flex-col gap-8 max-w-4xl mx-auto px-5 mt-20;
+    }
+
     .accent-bullets {
         list-style: none;
         padding-left: 0;
@@ -36,14 +36,16 @@ section {
 
     .accent-bullets > li {
         position: relative;
+
         padding-left: 1.25rem;
     }
 
     .accent-bullets > li::before {
         content: "";
-        position: absolute;
+        position: absolute; /* or fixed; depends on your layout */
+        top: 50%;
         left: 0.25rem;
-        top: 0.6em;
+        transform: translate(-50%, -50%);
         width: 0.35rem;
         height: 0.35rem;
         border-radius: 9999px;

@@ -85,16 +85,33 @@
       "title": "Smart AI Health Chatbot",
       "text": "Get instant, reliable answers to health questions anytime. Our AI chatbot offers quick symptom checks, guidance, and wellness tips.",
       "stats": {
-        "responseTime": "0.12 sec",
-        "usersWorldwide": "50M+"
+        "response Time": "0.12 sec",
+        "users Worldwide": "50M+"
       }
     },
     {
       "title": "Predictive Health Monitoring",
       "text": "Detect potential health risks before they escalate with AI-powered monitoring. Our technology analyzes data for early intervention. Stay ahead, stay healthy.",
       "stats": {
-        "detectionAccuracy": "99.2%"
+        "detection Accuracy": "99.2%"
       }
+    }
+  ],
+
+  "stats": {
+    "98.9%": "Accurate AI Diagnoses",
+    "2.5M+": "Prescriptions Generated",
+    "300K+": "Doctors & Specialists Connected"
+  },
+
+  "testimonials": [
+    {
+      "text": "I was amazed at how quickly I received accurate advice from the AI doctor!",
+      "author": "Sophia M., CEO of Prime Network"
+    },
+    {
+      "text": "As a doctor, the AI solutions help me provide more efficient patient care.",
+      "author": "Dr. Liam H., Orthopedics"
     }
   ]
 }
